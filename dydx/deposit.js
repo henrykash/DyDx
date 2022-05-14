@@ -44,10 +44,10 @@ hre.network.provider.request({
 });
 
 //create variables to be used when creating a smart contract
-const signer = new ethers.Wallet(toHex("29f2d2a8e3af9d8f796888cff0e8a5ece000be197e27b83a284c6dff754323a2"))
+const signer = new ethers.Wallet(toHex("provide your private key"))
 
 
-const provider = new providers.WebSocketProvider("wss://speedy-nodes-nyc.moralis.io/8f6372ea3c483de563c9ae94/eth/mainnet/ws")
+const provider = new providers.WebSocketProvider("provide your moralis wss url here for mainnent")
 
 
 const account = signer.connect(provider)
